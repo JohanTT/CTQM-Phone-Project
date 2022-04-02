@@ -10,7 +10,7 @@ const App = () => {
   const renderTask = () => {
     const data = listTask.filter(task => !task.isDone);
     if (!data.length) {
-      return <Text>Chua co viec can lam</Text>;
+      return <Text style={styles.nothing}>Chua co viec can lam</Text>;
     }
 
     return data.map(task => {
@@ -62,7 +62,7 @@ const App = () => {
               key={task.name}
               style={styles.taskContainer}
               onPress={() => {
-                console.log(index);
+                // listTask.splice()
               }}>
               <Text style={styles.taskDone}>{task.name}</Text>
             </TouchableOpacity>

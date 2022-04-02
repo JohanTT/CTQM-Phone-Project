@@ -30,9 +30,13 @@ const styles = StyleSheet.create({
       fontWeight: 'bold',
       fontSize: 20,
   },
+  nothing: {
+    paddingLeft: 7,
+    fontSize: 15,
+  },
   taskWrapper: {
-      borderWidth: 1,
-      borderRadius: 10,
+      // borderWidth: 1,
+      // borderRadius: 10,
      margin: 8,
   },
   taskContainer: {
