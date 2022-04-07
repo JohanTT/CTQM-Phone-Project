@@ -6,5 +6,3 @@
     + Lê Anh Trí - 46.01.104.195
 
 - Đề tài giữa kỳ: React Hooks (+demo)
-- Bài TodoList: ![image](https://user-images.githubusercontent.com/88262318/161373331-162d8791-0aa8-4411-b7c8-5bc4be173fac.png)
-
