@@ -53,23 +53,6 @@ const App = () => {
             style={styles.input}
           />
       </View>
-      <Text style={styles.todoTitle}>To do list</Text>
-      <View style={styles.taskWrapper}>{renderTask()}
-      {listTask.map((task, index) => {
-        if (task.isDone) {
-          return (
-            <TouchableOpacity
-              key={task.name}
-              style={styles.taskContainer}
-              onPress={() => {
-                // listTask.splice()
-              }}>
-              <Text style={styles.taskDone}>{task.name}</Text>
-            </TouchableOpacity>
-          );
-        }
-      })}
-      </View>
       
     </View>
   );
