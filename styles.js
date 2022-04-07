@@ -5,10 +5,8 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   header: {
-    display: 'flex',
     paddingTop: 15,
     paddingLeft: 10,
-    flexDirection: 'row',
   },
   title: {
     fontWeight: 'bold',
@@ -17,52 +15,35 @@ const styles = StyleSheet.create({
     marginTop: 10,
     color: '#0a0e4f',
   },
-  taskName: {
-    // fontWeight: 'bold',
-    color: '#000',
-    fontSize: 15,
-    marginLeft: 7,
-  },
-  todoTitle: {
+  hooksTitle: {
       marginTop: 10,
       marginLeft: 10,
       color: '#2A8547',
       fontWeight: 'bold',
-      fontSize: 20,
+      fontSize: 30,
   },
-  nothing: {
-    paddingLeft: 7,
-    fontSize: 15,
+  smallText: {
+    paddingLeft: 10,
+    paddingRight: 10,
   },
-  taskWrapper: {
-      // borderWidth: 1,
-      // borderRadius: 10,
-     margin: 8,
-  },
-  taskContainer: {
-    marginVertical: 5,
-  },
-  taskDone: {
-    textDecorationLine: 'line-through',
-    textDecorationStyle: 'solid',    
-    color: '#000',
-    fontSize: 15,
-    marginLeft: 7,
+  text: {
+    fontSize: 18,
+    paddingLeft: 10,
+    paddingRight: 10,
   },
   input: {
     height: 40,
     borderWidth: 1,
+    borderRadius: 5,
     margin: 5,
-    borderRadius: 20,
     padding: 5,
   },
   btn: {
-    width: 40,
-    height: 40,
     backgroundColor: '#22A84B',
-    borderRadius: 50,
+    borderRadius: 5,
     marginTop: 10,
-    marginHorizontal: 240,
+    marginLeft: 10,
+    marginRight: 10,
     justifyContent: 'center',
   },
   btnTitle: {
@@ -70,6 +51,15 @@ const styles = StyleSheet.create({
     fontSize: 25,
     textAlign: 'center',
 
+  },
+  smallBtn: {
+    maxWidth: 100,
+    borderWidth: 1,
+    borderColor: '#000',
+    backgroundColor: '#555',
+    padding: 2,
+    marginLeft: 10,
+    marginTop: 10,
   },
 });
 
