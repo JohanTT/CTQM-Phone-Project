@@ -12,12 +12,12 @@ import {Text, View, TextInput, TouchableOpacity, ScrollView} from 'react-native'
 import styles from './styles';
 
 const tabs = ['posts', 'comments', 'albums']
+
 const App = () => {
   // ----------USE_STATE----------
   const [teamInfo, setTeaminfo] = useState({
     name: 'CTQM',
     members: '4',
-    leader: 'Cao Viet Thang',
   })
   // bên trong useState là giá trị khởi tạo
   // return cho state
@@ -26,7 +26,7 @@ const App = () => {
   const infoUpdate = () => {
     setTeaminfo({
       ...teamInfo,
-      topic: 'unknown!',
+      topic: 'React hook',
     })
   }
 
